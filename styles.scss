@@ -1,3 +1,5 @@
+$revel-blue: #00a3e0;
+
 .cc-landing{
   font-size: 1.125em;
   .section-hero-wla{
@@ -20,8 +22,10 @@
       }
     }
     img.CC-logo{
-      margin: 25px;
+      margin: 25px auto;
       min-height: 40px;
+      width: inherit;
+
     }
     h1.h2{
       color: #00a3e0;
@@ -66,6 +70,58 @@
     text-align: center;
     .astrix{
       font-size: .91em;
+    }
+  }
+  section.section-hero-wla {
+    .the-form {
+      h2 {
+        margin-bottom: 1em;
+        margin-top: .5em;
+      }
+      form.mktoForm {
+        position: relative;
+        margin-top: 2.5em !important;
+        margin-bottom: 2.5em !important;
+        text-align: center;
+        background-color: white;
+        border: 2px solid $revel-blue;
+        padding: 20px !important;
+        border-radius: 5px;
+        input {
+          &#FirstName, &#LastName, &#Email, &#Phone {
+            background-color: #e2e2e2;
+            text-align: center;
+            border-radius: 4px;
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+        }
+        .mktoButtonRow {
+          width: 100%;
+          border: none;
+          border: thin solid $revel-blue;
+          border-radius: 4px;
+          background-color: $revel-blue;
+          .mktoButtonWrap {
+            width: 100%; 
+            border: none;
+            border-radius: 4px;
+            button {
+              width: 100%;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              padding: 8px;
+              &:hover {
+                background-color:white;
+                color: $revel-blue;
+                transition: .5s;
+              }
+            }
+          }
+        }
+
+      }
     }
   }
 }

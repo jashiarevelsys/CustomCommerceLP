@@ -17,8 +17,9 @@
         background-color: #00a3e0;
         color: #ebebeb; }
     .cc-landing .cc-cta img.CC-logo {
-      margin: 25px;
-      min-height: 40px; }
+      margin: 25px auto;
+      min-height: 40px;
+      width: inherit; }
     .cc-landing .cc-cta h1.h2 {
       color: #00a3e0;
       text-align: left;
@@ -52,3 +53,41 @@
     text-align: center; }
     .cc-landing .section-contact .astrix {
       font-size: .91em; }
+  .cc-landing section.section-hero-wla .the-form h2 {
+    margin-bottom: 1em;
+    margin-top: .5em; }
+  .cc-landing section.section-hero-wla .the-form form.mktoForm {
+    position: relative;
+    margin-top: 2.5em !important;
+    margin-bottom: 2.5em !important;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #00a3e0;
+    padding: 20px !important;
+    border-radius: 5px; }
+    .cc-landing section.section-hero-wla .the-form form.mktoForm input#FirstName, .cc-landing section.section-hero-wla .the-form form.mktoForm input#LastName, .cc-landing section.section-hero-wla .the-form form.mktoForm input#Email, .cc-landing section.section-hero-wla .the-form form.mktoForm input#Phone {
+      background-color: #e2e2e2;
+      text-align: center;
+      border-radius: 4px;
+      padding-left: 0px;
+      padding-right: 0px; }
+    .cc-landing section.section-hero-wla .the-form form.mktoForm .mktoButtonRow {
+      width: 100%;
+      border: none;
+      border: thin solid #00a3e0;
+      border-radius: 4px;
+      background-color: #00a3e0; }
+      .cc-landing section.section-hero-wla .the-form form.mktoForm .mktoButtonRow .mktoButtonWrap {
+        width: 100%;
+        border: none;
+        border-radius: 4px; }
+        .cc-landing section.section-hero-wla .the-form form.mktoForm .mktoButtonRow .mktoButtonWrap button {
+          width: 100%;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 8px; }
+          .cc-landing section.section-hero-wla .the-form form.mktoForm .mktoButtonRow .mktoButtonWrap button:hover {
+            background-color: white;
+            color: #00a3e0;
+            transition: .5s; }
