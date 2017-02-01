@@ -17,14 +17,15 @@
         background-color: #00a3e0;
         color: #ebebeb; }
     .cc-landing .cc-cta img.CC-logo {
-      margin: 25px auto;
+      margin: 40px auto 20px auto;
       min-height: 40px;
       width: inherit; }
     .cc-landing .cc-cta h1.h2 {
       color: #00a3e0;
       text-align: left;
       padding: 15px;
-      font-size: 2.4em; }
+      font-size: 2.4em;
+      margin: 40px auto 20px auto; }
     .cc-landing .cc-cta p.cta-text {
       text-align: left;
       padding: 10px;
