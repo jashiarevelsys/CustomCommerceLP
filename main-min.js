@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=$(".owl-carousel");e.owlCarousel({items:1,mouseDrag:!1,margin:0,center:!0,smartSpeed:1e3}),$(".customNextBtn").click(function(){e.trigger("next.owl.carousel")})});
